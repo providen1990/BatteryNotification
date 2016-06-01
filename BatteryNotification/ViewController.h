@@ -9,6 +9,9 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+@property (strong, nonatomic) IBOutlet UILabel *helloText;
+- (IBAction)saveConfig:(id)sender;
+- (IBAction)clearConfig:(id)sender;
 
 
 @end
